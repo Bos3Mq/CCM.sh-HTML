@@ -6,6 +6,12 @@ Released for free under a Creative Commons Attribution 2.5 License
 */
 
 /* Elements */
+html {
+    zoom: 1.6; /* Old IE only */
+    -moz-transform: scale(1.6);
+    -webkit-transform: scale(1.6);
+    transform: scale(1.6);
+}
 
 body {
 	background: #4C4C4C;
