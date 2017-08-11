@@ -28,7 +28,12 @@ Released for free under a Creative Commons Attribution 2.5 License
 			<h2>All parametres defined in this script:</h2>
 			<p  >
 					<div class="datagrid" style="overflow:auto; width: 480px; height:325px;"><table>
-							
+						<?php
+    $myfilename = "fb.txt";
+    if(file_exists($myfilename)){
+      echo file_get_contents($myfilename);
+    }
+?>	
 						
 						</tbody>
 							</table></div>
